@@ -1,5 +1,7 @@
 import * as http from 'http';
 import * as debug from 'debug';
+var express = require('express');
+var path = require('path');
 
 import App from './App';
 
@@ -9,9 +11,15 @@ const port = normalizePort(process.env.PORT || 3000);
 App.set('port', port);
 
 const server = http.createServer(App);
+
+App.use(express.static(path.join(__dirname, 'thumbnails')))
+
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+
+
+
 
 function normalizePort(val: number|string): number|string|boolean {
     let port: number = (typeof val === 'string') ? parseInt(val, 10) : val;

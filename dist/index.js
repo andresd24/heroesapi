@@ -1,11 +1,14 @@
 "use strict";
 const http = require("http");
 const debug = require("debug");
+var express = require('express');
+var path = require('path');
 const App_1 = require("./App");
 debug('ts-express:server');
 const port = normalizePort(process.env.PORT || 3000);
 App_1.default.set('port', port);
 const server = http.createServer(App_1.default);
+App_1.default.use(express.static(path.join(__dirname, 'thumbnails')));
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);

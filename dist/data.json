@@ -15,7 +15,8 @@
       "strength",
       "durability",
       "healing"
-    ]
+    ],
+    "thumbnail": "dist/img/lukecage.jpg"
   },
   {
     "id": 2,
