@@ -1,10 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Luke Cage",
+    "name": "Rolling Stones",
     "aliases": ["Carl Lucas", "Power Man", "Mr. Bulletproof", "Hero for Hire"],
+    "date": "Friday, April 22th 2017",
     "occupation": "bartender",
-    "gender": "male",
+    "date": "Thursday, February 14th 2017",
+    "price": "$500",
     "height": {
       "ft": 6,
       "in": 3
@@ -15,13 +17,15 @@
       "strength",
       "durability",
       "healing"
-    ]
+    ],
+    "thumbnail": "rollingstones.jpg"
   },
   {
     "id": 2,
-    "name": "Spider-Man",
+    "name": "Pink Floyd",
     "aliases": ["Dr. Peter Benjamin Parker", "Spidey", "Web-Sligner", "Spider-X-Man"],
-    "occupation": "scientist",
+    "date": "Tuesday, June 24th 2017",
+    "price": "$400",
     "gender": "male",
     "height": {
       "ft": 5,
@@ -40,11 +44,14 @@
       "reflexes",
       "Spider-Sense",
       "genius"
-    ]
+    ],
+    "thumbnail": "pinkfloyd.png"
   },
   {
     "id": 3,
-    "name": "Captain America",
+    "name": "Smashing Pumpkins",
+    "date": "Tuesday, September 14th 2017",
+    "price": "$230",
     "aliases": [
       "Winghead",
       "Shield-Slinger",
@@ -71,11 +78,14 @@
       "stamina",
       "healing",
       "longevity"
-    ]
+    ],
+    "thumbnail": "smashingpumpkins.jpg"
   },
   {
     "id": 4,
-    "name": "Iron Man",
+    "name": "Beck",
+    "date": "Tuesday, October 22th 2017",
+    "price": "$200",
     "aliases": [
       "Tony Stark",
       "Golden Gladiator",
@@ -90,11 +100,14 @@
     },
     "hair": "black",
     "eyes": "blue",
-    "powers": []
+    "powers": [],
+    "thumbnail": "beck.jpg"
   },
   {
     "id": 5,
-    "name": "Wolverine",
+    "name": "Flume",
+    "date": "Friday, December 25th 2017",
+    "price": "$150",
     "aliases": [
       "Logan",
       "Weapon X",
@@ -121,6 +134,7 @@
       "weather adaptation",
       "animal empathy",
       "bone claws"
-    ]
+    ],
+    "thumbnail": "flume.jpeg"
   }
 ]
